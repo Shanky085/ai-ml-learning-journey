@@ -21,6 +21,7 @@ The focus is on consistent learning and hands-on practice rather than collecting
 | Date | Topic | Status |
 |---|---|---|
 | [2026-09-01](daily-log/2026-09-01-linear-algebra-foundations.md) | Linear Algebra Foundations | In progress |
+| [2026-09-02](daily-log/2026-09-02-linear-algebra.md) | Linear Algebra & LoRA | In progress |
 
 ## Learning Philosophy
 
