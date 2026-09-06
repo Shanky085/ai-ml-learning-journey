@@ -24,6 +24,7 @@ The focus is on consistent learning and hands-on practice rather than collecting
 | [2026-09-02](daily-log/2026-09-02-linear-algebra.md) | Linear Algebra & LoRA | In progress |
 | [2026-09-03](daily-log/2026-09-03-vectors-matrices-operations.md) | Vectors, Matrices & Operations | Completed |
 | [2026-09-04](daily-log/2026-09-04-matrix-transformations-eigenvalues.md) | Matrix Transformations & Eigenvalues | Completed |
+| [2026-09-05](daily-log/2026-09-05-calculus-derivatives-gradients.md) | Calculus for ML — Derivatives & Gradients | Completed |
 
 ## Learning Philosophy
 
