@@ -15,6 +15,7 @@ The focus is on consistent learning and hands-on practice rather than collecting
 - Natural Language Processing
 - Deep Learning
 - AI Engineering
+- LabEx / Linux practice
 
 ## Daily Logs
 
@@ -27,6 +28,12 @@ The focus is on consistent learning and hands-on practice rather than collecting
 | [2026-09-05](daily-log/2026-09-05-calculus-derivatives-gradients.md) | Calculus for ML — Derivatives & Gradients | Completed |
 | [2026-09-06](daily-log/2026-09-06-chain-rule-automatic-differentiation.md) | Chain Rule & Automatic Differentiation | Completed |
 | [2026-09-11](daily-log/2026-09-11-probability-distributions.md) | Probability & Distributions | Completed |
+
+## LabEx Logs
+
+| Date | Task | Status |
+|---|---|---|
+| [2026-09-11](labex/2026-09-11-archive-the-draft-files.md) | Archive the Draft Files | Completed |
 
 ## Learning Philosophy
 
