@@ -26,6 +26,7 @@ The focus is on consistent learning and hands-on practice rather than collecting
 | [2026-09-04](daily-log/2026-09-04-matrix-transformations-eigenvalues.md) | Matrix Transformations & Eigenvalues | Completed |
 | [2026-09-05](daily-log/2026-09-05-calculus-derivatives-gradients.md) | Calculus for ML — Derivatives & Gradients | Completed |
 | [2026-09-06](daily-log/2026-09-06-chain-rule-automatic-differentiation.md) | Chain Rule & Automatic Differentiation | Completed |
+| [2026-09-11](daily-log/2026-09-11-probability-distributions.md) | Probability & Distributions | Completed |
 
 ## Learning Philosophy
 
