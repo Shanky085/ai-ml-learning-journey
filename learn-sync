@@ -1,0 +1,14 @@
+#!/bin/bash
+# learn-sync - One-command learning progress synchronizer
+# Usage: learn-sync (from any directory)
+
+REPO_PATH="/c/Users/shank/ai-ml-learning-journey"
+SCRIPT_PATH="$REPO_PATH/sync_learning_test.py"
+
+echo "🔄 Synchronizing learning progress..."
+cd "$REPO_PATH" && python "$SCRIPT_PATH"
+if [ $? -eq 0 ]; then
+    echo "✅ Learning progress synchronized successfully!"
+else
+    echo "❌ Synchronization failed. Check the output above."
+fi

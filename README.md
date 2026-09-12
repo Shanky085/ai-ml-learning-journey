@@ -1,40 +1,45 @@
 # AI/ML Learning Journey
 
-A public learning log documenting my day-to-day progress as I build foundations in Artificial Intelligence and Machine Learning.
+This repository automatically tracks your daily progress in AI/ML learning.
 
-## Purpose
+## How to Use
 
-This repository is my accountability log. I will use it to record what I learn, what I practice, what I find difficult, and what I plan to study next.
+After you finish a lesson and update your learning notes in `C:\Users\shank\Desktop\ai\LEARNING.md`, run one of the following commands to sync your progress to GitHub:
 
-The focus is on consistent learning and hands-on practice rather than collecting notes without application.
+### Option 1: Double-click (Windows File Explorer)
+Double-click the file `sync_learning.bat` located in this repository or on your desktop.
 
-## Current Focus
+### Option 2: Git Bash / Command Prompt
+Navigate to this repository and run:
+```
+learn-sync
+```
+or
+```
+python sync_learning_test.py
+```
 
-- Linear Algebra for AI/ML
-- Machine Learning
-- Natural Language Processing
-- Deep Learning
-- AI Engineering
-- LabEx / Linux practice
+### Option 3: Continuous Background Sync (Optional)
+To automatically sync whenever you save your learning notes, run:
+```
+python sync_learning.py
+```
+This will watch your `LEARNING.md` file and sync changes in real time.
 
-## Daily Logs
+## What Happens
+- Your learning notes are read and a timestamped entry is saved to `daily-log/learning-YYYY-MM-DD.md`.
+- A git commit is created with the message "Learning update: YYYY-MM-DD HH:MM".
+- The changes are pushed to the `main` branch of this repository.
 
-| Date | Topic | Status |
-|---|---|---|
-| [2026-09-01](daily-log/2026-09-01-linear-algebra-foundations.md) | Linear Algebra Foundations | In progress |
-| [2026-09-02](daily-log/2026-09-02-linear-algebra.md) | Linear Algebra & LoRA | In progress |
-| [2026-09-03](daily-log/2026-09-03-vectors-matrices-operations.md) | Vectors, Matrices & Operations | Completed |
-| [2026-09-04](daily-log/2026-09-04-matrix-transformations-eigenvalues.md) | Matrix Transformations & Eigenvalues | Completed |
-| [2026-09-05](daily-log/2026-09-05-calculus-derivatives-gradients.md) | Calculus for ML — Derivatives & Gradients | Completed |
-| [2026-09-06](daily-log/2026-09-06-chain-rule-automatic-differentiation.md) | Chain Rule & Automatic Differentiation | Completed |
-| [2026-09-11](daily-log/2026-09-11-probability-distributions.md) | Probability & Distributions | Completed |
+## Files
+- `sync_learning_test.py` - One-time sync script (used by `learn-sync` and `sync_learning.bat`)
+- `sync_learning.py` - Continuous file watcher (optional)
+- `sync_learning.bat` - Windows batch file to run the one-time sync
+- `learn-sync` - Bash script for Git Bash/CMD to run the one-time sync
+- `daily-log/` - Folder containing daily markdown logs of your learning progress
+- `.learning_sync_state.json` - Tracks the last synced state (hidden)
 
-## LabEx Logs
-
-| Date | Task | Status |
-|---|---|---|
-| [2026-09-11](labex/2026-09-11-archive-the-draft-files.md) | Archive the Draft Files | Completed |
-
-## Learning Philosophy
-
-**Learn → Practice → Understand → Build → Repeat**
+## Notes
+- Ensure you have Git installed and configured with your GitHub account.
+- The automation uses the `gh` CLI (GitHub CLI) for authentication, which should already be set up.
+- Do not edit files in the `daily-log/` folder manually; they are generated automatically.
